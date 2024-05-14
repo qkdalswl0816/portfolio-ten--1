@@ -223,10 +223,67 @@ a {
   background-color: rgb(61, 45, 45);
 }
 #wrap .dessurt {
+  position: relative;
   width: 1900px;
 }
 #wrap .dessurt img {
   width: 100%;
+}
+#wrap .dessurt .dessurt_text {
+  position: absolute;
+  bottom: 20%;
+  left: 43%;
+  color: #413b2b;
+}
+#wrap .dessurt .dessurt_text h2 {
+  font-size: 80px;
+}
+#wrap .dessurt .dessurt_text h3 {
+  font-size: 50px;
+}
+#wrap .dessurt .dessurt_text h4 {
+  font-size: 20px;
+}
+#wrap .slider_box {
+  width: 100%;
+  position: relative;
+}
+#wrap .slider_box .slider_text {
+  width: 100%;
+  position: relative;
+  top: 90px;
+  left: 40px;
+}
+#wrap .slider_box .slider_text span {
+  font-size: 65px;
+  color: orange;
+}
+#wrap .slider_box .slide {
+  width: 100%;
+  position: relative;
+  top: 200px;
+  display: flex;
+}
+#wrap .slider_box .slide .inner {
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  transition: all 1s;
+  margin: 10px;
+  transition: all 0.5s;
+}
+#wrap .slider_box .slide .inner h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #423b18;
+}
+#wrap .slider_box .slide .inner p {
+  margin-top: 20px;
+}
+#wrap .slider_box .slide .inner:hover {
+  transform: scale(1.2);
+  background-color: #f78400;
 }
 
 /*# sourceMappingURL=style.css.map */
